@@ -1,0 +1,25 @@
+.profile-dropdown {
+    min-width: 180px;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    border: 1px solid #ececec;
+    background: #fff;
+}
+
+.profile-item {
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.profile-item:hover {
+    background-color: #eef4ff;
+    color: #4066ff;
+}
+
+.logout-item:hover {
+    background-color: #ffeaea;
+    color: #e03131;
+}
