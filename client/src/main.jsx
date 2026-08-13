@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Auth0Provider domain="dev-aesoorgl5qfcf5a0.us.auth0.com"
       clientId="YJjif2cValyBziXKdTSzVZhHB3XAuIjh"
       authorizationParams={{
-        redirect_uri: window.location.origin,
-        audience: "https://real-estate-1-six-beta.vercel.app",
+        redirect_uri: "https://real-estate-1-client.vercel.app",
+        audience: "http://localhost:8000",
         scope: "openid profile email"
       }}
     >
