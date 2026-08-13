@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
-    origin: "https://real-estate-1-client-f8347klq6-sharayu234s-projects.vercel.app",
+    origin: true,
     credentials: true
 }))
 
