@@ -20,3 +20,5 @@ app.use(cors())
 
 app.use('/api/user',userRoute )
 app.use('/api/residency',residencyRoute)
+
+export default app
