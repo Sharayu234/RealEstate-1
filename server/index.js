@@ -15,7 +15,7 @@ app.use(cookieParser())
 
 app.use(cors({
     origin: ["http://localhost:5173",
-        "https://real-estate-1-client-bhr5albu-sharayu234s-projects.vercel.app"],
+        "https://real-estate-1-client.vercel.app"],
     credentials: true
 }))
 
