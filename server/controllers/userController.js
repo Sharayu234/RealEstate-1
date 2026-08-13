@@ -1,6 +1,5 @@
 import asyncHandler from "express-async-handler"
 import { prisma } from "../config/prismaConfig.js"
-import { data } from "react-router-dom"
 
 export const createUser = asyncHandler(async (req, res) => {
     console.log("creating a user")
