@@ -3,7 +3,7 @@ import dayjs from "dayjs"
 import { toast } from "react-toastify"
 
 export const api = axios.create({
-    baseURL: "https://real-estate-1-k73lslk0c-sharayu234s-projects.vercel.app/api"
+    baseURL: "https://real-estate-1-six-beta.vercel.app/api"
 })
 
 export const getAllProperties = async () => {
@@ -105,8 +105,8 @@ export const toFav = async (id, email, token) => {
             }
         )
 
-    } catch (e) {
-        throw e
+    } catch (error) {
+        throw error
     }
 }
 
@@ -126,9 +126,9 @@ export const getAllFav = async (email, token) => {
         )
         return res.data["favResidenciesID"]
 
-    } catch (e) {
+    } catch (error) {
         toast.error("Something went wrong while fetching favourites")
-        throw e
+        throw error
     }
 }
 
@@ -150,7 +150,7 @@ export const getAllBookings = async (email, token) => {
 
     } catch (error) {
         toast.error("Something went wrong while fetching bookings")
-        throw e
+        throw error
     }
 }
 
